@@ -1,0 +1,38 @@
+* {
+ 
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  padding: 60px;
+}
+input{
+  color: gray;
+  font-size: 1.3 rem;
+  padding: 3px;
+}
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.card{
+  align-content: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  margin: 10px 10px;
+  overflow: hidden;
+}
+
+.card p{
+  text-align: center;
+}
+
+.card img{
+  max-height: 200px;
+}
